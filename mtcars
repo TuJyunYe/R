@@ -1,3 +1,5 @@
+# 202108-12  雲創培訓班  資料科學應用  迴歸分析作業
+
 library(tidyverse) # clean data
 # library(knitr) 寫成 Rmarkdown 用
 # library(reshape2) #堆疊資料畫 heatmap 用
