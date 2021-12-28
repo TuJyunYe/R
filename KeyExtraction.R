@@ -1,5 +1,6 @@
-#################### 讀入library & 設定工作目錄 ####################
+# 202108-12 雲端培訓班期末報告 關鍵字萃取：詞袋表達 & TF-IDF algorithm
 
+################### 讀入library & 設定工作目錄 ####################
 # install.packages("widyr")
 # library(text2vec)
 # library(tm) # remomve numbers
@@ -21,11 +22,10 @@ library(wordcloud)
 
 #################### 透過爬蟲所得的資料 ####################
 
-# ID & key 是屬個資，不要輕易給別人
 # library(tuber)
-
-ClientID <- "1091027466629-2e07q9s5jcjni4rm0flfvkqhjnsegree.apps.googleusercontent.com"
-ClientKey <- "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"
+# ID & key 是屬個資，不公開
+ClientID <- " "
+ClientKey <- " "
 yt_oauth(ClientID, ClientKey, token = "")
 
 # 第三屆走鐘獎 最會講獎
